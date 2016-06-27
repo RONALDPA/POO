@@ -1,4 +1,10 @@
 
 public enum TipoVehiculo {
-	MOTO, CAMIONETA, AUTO, FURGONETA, TRAILER, BUS;
+	 CAMIONETA, 
+	 MOTO, 
+	 AUTO,
+	 FURGONETA, 
+	 TRAILER, 
+	 BUS;
+	
 }

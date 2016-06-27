@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class ANT {
 	private ArrayList<Vehiculo> vehiculosRegistrados = new ArrayList <Vehiculo>();
 		private static int ultimaMatricula;
-		private String nombreAgencia="";
+		private String nombreAgencia ="";
 		
 		ANT(String nombreAgencia){
 			this.nombreAgencia = nombreAgencia;
@@ -20,7 +20,7 @@ public class ANT {
 			return vehiculosFiltrados;
 		}
 		public void matriculaVehiculo(Vehiculo v){
-			v.setMatricula("YBA" + ultimaMatricula);
+			v.setMatricula("YAA" + ultimaMatricula);
 			ultimaMatricula++;
 			vehiculosRegistrados.add(v);
 		}
